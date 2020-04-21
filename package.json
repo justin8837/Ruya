@@ -1,0 +1,24 @@
+{
+  "name": "project-2...-stocks-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tverdone10/Project-2...-Stocks-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tverdone10/Project-2...-Stocks-/issues"
+  },
+  "homepage": "https://github.com/tverdone10/Project-2...-Stocks-#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.24.0"
+  }
+}

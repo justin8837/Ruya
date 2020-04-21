@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
+    <title>RUYA</title>
+    
+  </head>
+  <body>
+
+
+      
+        <h1 class="title">RцyЛ</h1>
+
+        <div class="row">
+          
+          <div class="entryPage">
+            <br><br><br>
+          <p>Enter access code here:</p>
+          <input class="passwordHere" type="password" value=""><br><br><button class="waves-effect waves-light passwordBtn" type="button">Enter</button>
+          </div>
+          
+          </div>
+        </div>
+          
+        
+
+      <div class="row">
+        <div class="page1">
+          
+          <div class="which stock?">
+          <h1>Which stocks would you like to survey? </h1>
+          
+          <p class="chooseNum">(Enter symbol below. Choose 2)</p>
+      </div> 
+  
+      <div class="inputField">
+          <input class="input" type="input" value="">   <button class="select1">Select</button>
+      </div>
+  
+      <div class="selectionList">
+          <ul class="stocks"></ul>
+         
+      </div>
+  
+      <button class="continue1" type="button">Continue</button>
+  
+      </div>
+      </div>
+        
+      <div class="row">
+        <div class="page2">
+  
+          <h1 class="prompt2">
+              
+          </h1> <br>
+  
+          <!-- <form action="/action_page.php">
+              <input type="checkbox" name="openingPrice" value="Opening Price"> Opening Price<br>
+              <input type="checkbox" name="closingPrice" value="Closing Price"> Closing Price<br>
+              <input type="checkbox" name="dailyHigh" value="Daily High"> Daily High<br>
+              <input type="checkbox" name="dailyLow" value="Daily Low"> Daily Low<br>
+              <input type="checkbox" name="volume" value="Volume"> Volume<br>
+              <input type="checkbox" name="dividendAmt" value="Dividend Amount"> Dividend Amount<br> <br>
+              
+            </form> -->
+  
+            <h1>Please select a start and end date for stock opening data. (Select a start date later than 2000)</h1> <br> 
+            from: <input type="text" name="fromdate" class="fromDate" value="yyyy-mm-dd">  to: <input type="text" name="todate" class="toDate" value="yyyy-mm-dd"><br> <br>
+  
+            <button class="continue2" id="enter" type="button">get data</button> 
+  
+  
+      </div>
+      </div>
+      
+  
+<div class="row">
+
+      <div class="chart-container col-md-12">
+    
+      <canvas id="myChart" width="500" height="500">
+
+        <input type="text" id="example">
+
+      </canvas>
+
+
+
+      
+    </div>    
+  </div>
+
+
+    <!-- <div class="content">
+      <a href="#" class="open btn">Open</a>
+      <p>hello</p>
+  </div> -->
+        <!-- <footer class="page-footer">
+            <div class="container">
+             
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              © 2019 Copyright Text
+              <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+              </div>
+            </div>
+          </footer> -->
+
+          <script src="./assets/js/script.js"></script>
+  </body>
+</html>
